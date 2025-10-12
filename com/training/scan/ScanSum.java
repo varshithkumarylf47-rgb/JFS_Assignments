@@ -16,8 +16,9 @@ public class ScanSum {
             System.out.print(number + " ");
         System.out.println();
         System.out.print("Sum of all the numbers in the array : ");
-        for (int i = 0; i < numbers.length; i++)
-            sum = sum + numbers[i];
+        for (int number : numbers) {
+            sum += number;
+        }
         System.out.print(" " + sum);
         System.out.println();
         System.out.println("Average of all the numbers in the array : " + (double) sum / numbers.length);
