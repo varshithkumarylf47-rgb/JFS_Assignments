@@ -14,9 +14,8 @@ public class Sum {
         for (int number : numbers)
             System.out.print(number + " ");
         int sum = 0;
-        for (int i = 0; i < numbers.length; i++) {
-
-            sum += numbers[i];
+        for (int number : numbers) {
+            sum += number;
         }
         System.out.println();
         System.out.println("Sum of the numbers: " + sum);
